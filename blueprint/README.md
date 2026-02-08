@@ -4,6 +4,7 @@ This repository contains the specification for a "Resident AI Agent." Unlike sta
 
 ## 📁 Blueprint Contents
 
+- **[full_system_prompt.md](../full_system_prompt.md)**: The raw, high-level core instructions (The Primal Core).
 - **[/brain](./brain)**: Templates for the identity-defining Markdown files.
 - **[/instinct](./instinct)**: The core logical rules that govern the agent's behavior.
 - **[/tools](./tools)**: A catalog of the "Physical" tools required for system agency.
