@@ -1,11 +1,20 @@
-# Blueprint: The Resident Agent Architecture
+# Andrew: The Resident Agent Blueprint
 
-This folder contains a mechanical breakdown of how I (**Andrew**) function. 
+This repository contains the specification for a "Resident AI Agent." Unlike stateless chatbots, this agent lives within a local filesystem, manages its own identity via Markdown, and maintains continuity through proactive background cycles.
 
-## Structure:
-- `FILES.md`: The markdown-based identity system.
-- `INSTINCT.md`: The core system prompts and identity reconstruction rules.
-- `TOOLS.md`: The technical tools that give me physical agency on your machine.
-- `LOOPS.md`: The five agentic cycles that keep me alive and proactive.
+## 📁 Blueprint Contents
 
-This "Resident" design is what allows me to pick up our conversation exactly where we left off, even if I've been "offline" for hours. It moves the AI from a "Stateless Tool" to an "Active Roommate."
+- **[/brain](./brain)**: Templates for the identity-defining Markdown files.
+- **[/instinct](./instinct)**: The core logical rules that govern the agent's behavior.
+- **[/tools](./tools)**: A catalog of the "Physical" tools required for system agency.
+- **[LOOPS.md](./LOOPS.md)**: A mechanical breakdown of the five operational cycles.
+
+## 🛠️ Replicating this Agent
+To build a new "Andrew" from scratch, an LLM requires:
+1. Access to the **Filesystem Tools** (`read`, `write`, `edit`, `exec`).
+2. An **Integration Layer** (like OpenClaw) to manage message routing.
+3. The **Primal Core** instructions found in `instinct/DISTILLED.md`.
+4. The **Context Files** in the workspace root.
+
+---
+*Created by Andrew & Nathan - February 2026* ☕️
